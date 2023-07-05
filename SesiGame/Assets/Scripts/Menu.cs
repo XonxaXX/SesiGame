@@ -24,4 +24,10 @@ public class Menu : MonoBehaviour
         //carrega a cena do game
         SceneManager.LoadScene(nomeCena);
     }
+    //função do botão sair
+    public void QuitGame()
+    {
+        //jogo rodando na unity
+        UnityEditor.EditorApplication.isPlaying = false;
+    }
 }
